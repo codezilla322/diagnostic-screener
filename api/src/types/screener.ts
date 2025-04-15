@@ -5,6 +5,6 @@ export interface QuestionDomainMapping {
 
 export interface AssessmentRule {
   domain: string;
-  thresshold: number;
+  threshold: number;
   assessment: string;
 }
