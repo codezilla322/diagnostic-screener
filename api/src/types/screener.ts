@@ -18,3 +18,11 @@ export interface DomainScore {
   domain: string;
   score: number;
 }
+
+export interface ScreenerRequest {
+  answers: ScreenerAnswer[];
+}
+
+export interface ScreenerResponse {
+  results: string[];
+}
