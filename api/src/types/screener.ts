@@ -8,3 +8,13 @@ export interface AssessmentRule {
   threshold: number;
   assessment: string;
 }
+
+export interface ScreenerAnswer {
+  value: number;
+  question_id: string;
+}
+
+export interface DomainScore {
+  domain: string;
+  score: number;
+}
